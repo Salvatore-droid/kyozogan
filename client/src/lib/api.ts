@@ -1,4 +1,4 @@
-const BASE_URL = 'http://localhost:8000/api';
+const BASE_URL = 'https://kyozogan-backend.onrender.com/api';
 
 // ── Token helpers - FIXED to handle both key names ──────────────────────────────
 export const getAccessToken = () => localStorage.getItem('access') || localStorage.getItem('access_token');
